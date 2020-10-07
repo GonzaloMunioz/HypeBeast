@@ -1,0 +1,443 @@
+header,
+section,
+footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+@font-face{
+    font-family: 'Sicret_PERSONAL-ExtraLight';
+    src:url('Sicret_PERSONAL-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Sicret_PERSONAL-Light';
+    src:url('Sicret_PERSONAL-Light.ttf') format('truetype');
+    }
+
+#logo {
+    width: 415px;
+    height: 80px;
+    background-color: white;
+    float: left;
+}
+
+#logo img{
+    width: 400px;
+    margin-top: 11.5px;
+    margin-left: 7.5px;
+}
+
+#botonera_principal {
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    float: right;
+}
+
+#botonera_principal .iniciarsesion{
+    text-align: center;
+    line-height: 100px;
+}
+
+.iniciarsesion a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Sicret_PERSONAL-Light';
+    font-size: 50px;
+}
+
+#botonera_secundaria{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    text-align: left;
+    line-height: 70px;
+}
+
+.navegacion{
+    display: inline;
+    list-style-type: none;
+    font-family: 'Sicret_PERSONAL-Light';
+}
+
+.navegacion li{
+    display: inline-block;
+    margin-left: 40px;
+    height: 60px;
+}
+
+.navegacion li:hover{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.navegacion li:hover a{
+    color: black;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    display: block;
+    height: 60px;
+}
+
+#contenido_index {
+    height: 800px;
+   background-image: url(zzebra.png);
+}
+
+#caja{
+    -moz-box-shadow: 0px 0px 20px #000000;
+    -webkit-box-shadow: 0px 0px 20px #000000;
+    box-shadow: 0px 0px 20px #000000;
+    background-color: white;
+    float: left;
+    width: 800px;
+    height: 650px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+ul.cuenta{
+    margin-top: 40px;
+    font-family: 'Sicret_PERSONAL-Light';
+    border-bottom: solid black 5px;
+    padding-bottom: 60px;
+    font-size: 22.5px;
+}
+
+ul.cuenta li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+ul.cuenta label{
+    margin-left: 10px;
+}
+
+ul.cuenta li input{
+    margin-left: 20px;
+    font-family: 'Sicret_PERSONAL-Light';
+}
+
+ul.registro{
+    margin-top: 40px;
+    font-family: 'Sicret_PERSONAL-Light';
+    padding-bottom: 60px;
+    display: flex;
+    font-size: 22.5px;
+}
+
+ul.registro li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+ul.registro label{
+    margin-left: 10px;
+}
+
+ul.registro li input{
+    margin-left: 20px;
+    font-family: 'Sicret_PERSONAL-Light';
+}
+
+.column{
+    
+    -moz-column-count: 2;
+    -moz-column-gap: 10em;
+    -moz-column-rule: 1.5px ;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10em;
+    -webkit-column-rule: 1.5px ;
+    column-count: 2;
+    column-gap: 10em;
+    column-rule: 1.5px ;
+    height: 250px;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    margin-top: 3px;
+    font-size: 25px;
+    font-family: 'Sicret_PERSONAL-Light';
+    line-height: 200px;
+    margin-left: 20px;
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+
+header,
+    section,
+    footer {
+        width: 580px;
+    }
+    
+    header {
+        height: 80px;
+    }
+
+    #logo {
+        width: 295px;
+        float: left;
+    }
+    
+    #logo img{
+        width: 280px;
+        margin-top: 17.5px;
+        margin-left: 7.5px;
+    }
+    
+    #botonera_principal {
+        width: 265px;
+    }
+    
+    #botonera_principal .iniciarsesion{
+        line-height: 90px;
+    }
+    
+    .iniciarsesion a{
+        font-size: 35px;
+    }  
+    
+    #botonera_principal {
+        width: 265px;
+    }
+    
+    #botonera_principal .iniciarsesion{
+        line-height: 90px;
+    }
+
+    #botonera_secundaria{
+        text-align: left;
+    }
+    
+    .navegacion li{
+        margin-left: 5px;
+    }
+    
+    .navegacion li:hover{
+        background-color: white;
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+        margin-left: 0px;
+    }
+    
+    .navegacion li a{
+        font-size: 30px;
+    }
+    
+    #contenido_index {
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+    
+    #caja{
+        float: none;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 0px;
+    }
+    
+    ul.cuenta li{
+        margin-bottom: 1px;
+        font-size: 27px;
+        padding-top: 10%;
+    }
+    
+    ul.registro{
+        margin-top: 0px;
+        padding-bottom: 50px;
+        display:inline-block;
+        font-size: 22.5px;
+        height: 450px;
+    }
+
+    .column{
+        font-size: 27px;
+        -moz-column-count: 2px;
+        -moz-column-gap: 2px;
+        -moz-column-rule: 2px ;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 1px;
+        -webkit-column-rule: 1px;
+        column-count: 1px;
+        column-gap: 1px;
+        column-rule: 1px ;
+        display: inline;
+    }
+    
+    footer {
+        height: 100px;
+    }
+    
+    footer p{
+        margin-top: 3px;
+        font-size: 25px;
+        line-height: 125px;
+        margin-left: 20px;
+    }
+
+
+
+
+} /*fin media 600 - 1023px*/
+
+
+@media all and (max-width: 599px) {
+
+    header,
+    section,
+    footer {
+        width: 90%;
+    }
+    
+    header {
+        height: 80px;
+    }
+    
+    #logo {
+        width: 100%;
+        float: left;
+    }
+    
+    #logo img{
+        width: 100%;
+    }
+    
+    #botonera_principal {
+        width: 100%;
+    }
+    
+    #botonera_principal .iniciarsesion{
+        line-height: 90px;
+    }
+    
+    .iniciarsesion a{
+        font-size: 45px;
+    }
+
+    #botonera_secundaria{
+        height: auto;
+        width: 100%;
+        line-height: 70px;
+        text-align: center;
+    }
+    
+    .navegacion{
+        display: block;
+        list-style-type: none;
+        font-family: 'Sicret_PERSONAL-Light';
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .navegacion li{
+        display: block;
+        height: 60px;
+        margin-left: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .navegacion li:hover{
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .navegacion li:hover a{
+        color: black;
+    }
+    
+    .navegacion li a{
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        display: block;
+        height: 60px;
+    }
+
+    #contenido_index {
+        width: 90%;
+        height: 1410px;
+        padding-bottom: 30px;
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    #caja{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+    
+    ul.cuenta li{
+        margin-bottom: 8px;
+        font-size: 27px;
+        padding-top: 10%;
+    }
+
+    ul.registro{
+        margin-top: 0px;
+        padding-bottom: 50px;
+        display:inline-block;
+        font-size: 22.5px;
+        height: 450px;
+    }
+
+    .column{
+        -moz-column-count: 0px;
+        -moz-column-gap: 0px;
+        -moz-column-rule: 0px ;
+        -webkit-column-count: 0;
+        -webkit-column-gap: 0px;
+        -webkit-column-rule: 0px ;
+        column-count: 0px;
+        column-gap: 0px;
+        column-rule: 0px ;
+        display: inline;
+    }
+    
+    footer {
+        height: 100px;
+        width: 90%;
+    }
+    
+    footer p{
+        width: 90%;
+        font-size: 100%;
+        line-height: 125px;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+/* fin media hasta 600px*/
